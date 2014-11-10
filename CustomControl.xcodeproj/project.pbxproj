@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02123A971A0F9B03004C869D /* CheckBoxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 02123A961A0F9B03004C869D /* CheckBoxControl.m */; };
+		0234C07E1A0F8C56006537B1 /* RadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0234C07D1A0F8C56006537B1 /* RadioButton.m */; };
+		0234C0861A0F9183006537B1 /* radio_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234C0821A0F9183006537B1 /* radio_check.png */; };
+		0234C0871A0F9183006537B1 /* radio_uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234C0831A0F9183006537B1 /* radio_uncheck.png */; };
+		0234C0881A0F9183006537B1 /* checkbox_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234C0841A0F9183006537B1 /* checkbox_check.png */; };
+		0234C0891A0F9183006537B1 /* checkbox_uncheck.png in Resources */ = {isa = PBXBuildFile; fileRef = 0234C0851A0F9183006537B1 /* checkbox_uncheck.png */; };
 		02B2783F1A0F8AE200AEC64C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B2783E1A0F8AE200AEC64C /* main.m */; };
 		02B278421A0F8AE200AEC64C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B278411A0F8AE200AEC64C /* AppDelegate.m */; };
 		02B278451A0F8AE200AEC64C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B278441A0F8AE200AEC64C /* ViewController.m */; };
@@ -27,6 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02123A951A0F9B03004C869D /* CheckBoxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxControl.h; sourceTree = "<group>"; };
+		02123A961A0F9B03004C869D /* CheckBoxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxControl.m; sourceTree = "<group>"; };
+		0234C07C1A0F8C56006537B1 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		0234C07D1A0F8C56006537B1 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
+		0234C0821A0F9183006537B1 /* radio_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_check.png; sourceTree = "<group>"; };
+		0234C0831A0F9183006537B1 /* radio_uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_uncheck.png; sourceTree = "<group>"; };
+		0234C0841A0F9183006537B1 /* checkbox_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_check.png; sourceTree = "<group>"; };
+		0234C0851A0F9183006537B1 /* checkbox_uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_uncheck.png; sourceTree = "<group>"; };
 		02B278391A0F8AE200AEC64C /* CustomControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B2783D1A0F8AE200AEC64C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02B2783E1A0F8AE200AEC64C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -63,6 +77,14 @@
 		02B278301A0F8AE200AEC64C = {
 			isa = PBXGroup;
 			children = (
+				02123A951A0F9B03004C869D /* CheckBoxControl.h */,
+				02123A961A0F9B03004C869D /* CheckBoxControl.m */,
+				0234C07C1A0F8C56006537B1 /* RadioButton.h */,
+				0234C07D1A0F8C56006537B1 /* RadioButton.m */,
+				0234C0821A0F9183006537B1 /* radio_check.png */,
+				0234C0831A0F9183006537B1 /* radio_uncheck.png */,
+				0234C0841A0F9183006537B1 /* checkbox_check.png */,
+				0234C0851A0F9183006537B1 /* checkbox_uncheck.png */,
 				02B2783B1A0F8AE200AEC64C /* CustomControl */,
 				02B278551A0F8AE200AEC64C /* CustomControlTests */,
 				02B2783A1A0F8AE200AEC64C /* Products */,
@@ -199,9 +221,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0234C0861A0F9183006537B1 /* radio_check.png in Resources */,
 				02B278481A0F8AE200AEC64C /* Main.storyboard in Resources */,
 				02B2784D1A0F8AE200AEC64C /* LaunchScreen.xib in Resources */,
+				0234C0891A0F9183006537B1 /* checkbox_uncheck.png in Resources */,
 				02B2784A1A0F8AE200AEC64C /* Images.xcassets in Resources */,
+				0234C0881A0F9183006537B1 /* checkbox_check.png in Resources */,
+				0234C0871A0F9183006537B1 /* radio_uncheck.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +248,8 @@
 				02B278451A0F8AE200AEC64C /* ViewController.m in Sources */,
 				02B278421A0F8AE200AEC64C /* AppDelegate.m in Sources */,
 				02B2783F1A0F8AE200AEC64C /* main.m in Sources */,
+				02123A971A0F9B03004C869D /* CheckBoxControl.m in Sources */,
+				0234C07E1A0F8C56006537B1 /* RadioButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +373,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomControl;
 			};
 			name = Debug;
 		};
@@ -355,7 +383,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustomControl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomControl;
 			};
 			name = Release;
 		};
@@ -373,7 +401,7 @@
 				);
 				INFOPLIST_FILE = CustomControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomControlTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomControl.app/CustomControl";
 			};
 			name = Debug;
@@ -388,7 +416,7 @@
 				);
 				INFOPLIST_FILE = CustomControlTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CustomControlTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomControl.app/CustomControl";
 			};
 			name = Release;
@@ -412,6 +440,7 @@
 				02B2785E1A0F8AE200AEC64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		02B2785F1A0F8AE200AEC64C /* Build configuration list for PBXNativeTarget "CustomControlTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +449,7 @@
 				02B278611A0F8AE200AEC64C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
