@@ -91,6 +91,8 @@
         [sender setImage:[CheckBoxControl imageWithImage:[UIImage imageNamed:@"checkbox_check"] scaledToSize:CGSizeMake(h, h)] forState:UIControlStateNormal];
     }
     
+    [self.delegate checkBoxControlDidSelectItem:sender.tag];
+    
 }
 
 - (NSArray*)getCheckedObjects {

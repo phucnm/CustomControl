@@ -35,7 +35,7 @@
 /* Begin PBXFileReference section */
 		02123A951A0F9B03004C869D /* CheckBoxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBoxControl.h; sourceTree = "<group>"; };
 		02123A961A0F9B03004C869D /* CheckBoxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBoxControl.m; sourceTree = "<group>"; };
-		0234C07C1A0F8C56006537B1 /* RadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioButton.h; sourceTree = "<group>"; };
+		0234C07C1A0F8C56006537B1 /* RadioControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioControl.h; sourceTree = "<group>"; };
 		0234C07D1A0F8C56006537B1 /* RadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioButton.m; sourceTree = "<group>"; };
 		0234C0821A0F9183006537B1 /* radio_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_check.png; sourceTree = "<group>"; };
 		0234C0831A0F9183006537B1 /* radio_uncheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radio_uncheck.png; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			children = (
 				02123A951A0F9B03004C869D /* CheckBoxControl.h */,
 				02123A961A0F9B03004C869D /* CheckBoxControl.m */,
-				0234C07C1A0F8C56006537B1 /* RadioButton.h */,
+				0234C07C1A0F8C56006537B1 /* RadioControl.h */,
 				0234C07D1A0F8C56006537B1 /* RadioButton.m */,
 				0234C0821A0F9183006537B1 /* radio_check.png */,
 				0234C0831A0F9183006537B1 /* radio_uncheck.png */,

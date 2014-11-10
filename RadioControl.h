@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RadioButton : UIView
+@interface RadioControl : UIView
+
+@property (strong, nonatomic) id delegate;
 
 @property (strong, nonatomic) NSMutableArray *radioButtons;
 
@@ -19,5 +21,11 @@
 - (int) getCheckedObject;
 
 @property (nonatomic) NSInteger checkedObject;
+
+@end
+
+@protocol RadioControlDelegate
+
+- (void) radioControlDidSelectItem:(NSInteger)index;
 
 @end

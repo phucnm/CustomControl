@@ -20,5 +20,12 @@
 
 @property (nonatomic) NSMutableArray *checkedObjects;
 
+@property (strong, nonatomic) id delegate;
+
+@end
+
+@protocol CheckBoxControlDelegate
+
+- (id) checkBoxControlDidSelectItem:(NSInteger)index;
 
 @end

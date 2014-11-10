@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 PHUCNGUYEN. All rights reserved.
 //
 
-#import "RadioButton.h"
+#import "RadioControl.h"
 
-@implementation RadioButton
+@implementation RadioControl
 
 + (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize {
     //UIGraphicsBeginImageContext(newSize);
@@ -46,7 +46,7 @@
             else
                 image = [UIImage imageNamed:@"radio_check"];
             
-            image = [RadioButton imageWithImage:image scaledToSize:CGSizeMake(30, 30)];
+            image = [RadioControl imageWithImage:image scaledToSize:CGSizeMake(30, 30)];
             
             [button setImage:image forState:UIControlStateNormal];
             
@@ -79,13 +79,15 @@
     self.checkedObject = sender.tag;
     int i = sender.frame.size.height;
     for (UIButton* button in self.radioButtons) {
-        UIImage *image = [RadioButton imageWithImage:[UIImage imageNamed:@"radio_uncheck"] scaledToSize:CGSizeMake(i, i)];
+        UIImage *image = [RadioControl imageWithImage:[UIImage imageNamed:@"radio_uncheck"] scaledToSize:CGSizeMake(i, i)];
         
         [button setImage:image forState:UIControlStateNormal];
     }
-    UIImage *image = [RadioButton imageWithImage:[UIImage imageNamed:@"radio_check"] scaledToSize:CGSizeMake(i, i)];
+    UIImage *image = [RadioControl imageWithImage:[UIImage imageNamed:@"radio_check"] scaledToSize:CGSizeMake(i, i)];
     
     [sender setImage:image forState:UIControlStateNormal];
+    
+    [self.delegate radioControlDidSelectItem:sender.tag];
 }
 
 - (int)getCheckedObject {
