@@ -16,8 +16,6 @@
 
 - (IBAction)checkBoxClicked:(UIButton *)sender;
 
-- (NSArray*) getCheckedObjects;
-
 @property (nonatomic) NSMutableArray *checkedObjects;
 
 @property (strong, nonatomic) id delegate;
@@ -26,6 +24,6 @@
 
 @protocol CheckBoxControlDelegate
 
-- (id) checkBoxControlDidSelectItem:(NSInteger)index;
+- (void) checkBoxControlDidSelectItem:(NSInteger)index;
 
 @end

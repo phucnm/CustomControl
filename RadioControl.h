@@ -18,8 +18,6 @@
 
 - (IBAction)radioButtonClicked:(UIButton *)sender;
 
-- (int) getCheckedObject;
-
 @property (nonatomic) NSInteger checkedObject;
 
 @end

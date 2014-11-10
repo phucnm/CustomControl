@@ -90,8 +90,4 @@
     [self.delegate radioControlDidSelectItem:sender.tag];
 }
 
-- (int)getCheckedObject {
-    return self.checkedObject;
-}
-
 @end

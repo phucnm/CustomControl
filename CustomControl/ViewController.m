@@ -22,12 +22,8 @@
     NSLog(@"Radio click at : %ld", index);
 }
 
-- (id)checkBoxControlDidSelectItem:(NSInteger)index {
+- (void)checkBoxControlDidSelectItem:(NSInteger)index {
     NSLog(@"Check box selected at : %ld", index);
-}
-
-- (IBAction)GetCheckedItemRadioButton:(id)sender {
-    self.RadioCurrentItemLabel.text = [NSString stringWithFormat:@"%d", [self.radioButton getCheckedObject] ];
 }
 
 - (void)viewDidLoad {
